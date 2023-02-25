@@ -1,4 +1,17 @@
 proxies:
+- name: danu02_LiveCtn
+  type: trojan
+  server: sg-ctn.sshpremium.my.id
+  port: 443
+  password: d1030ea7-170a-46a2-8e50-6c571023ea69
+  udp: true
+  sni: sb.scorecardresearch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sb.scorecardresearch.com
 - name: danuWs14_VisionDo
   type: trojan
   server: sg-do.sshpremium.my.id
