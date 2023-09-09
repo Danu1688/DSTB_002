@@ -1,7 +1,7 @@
 proxies:
 - name: Royan_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 219562a3-125c-4d8b-844f-5ce3b3a0dc42
   udp: true
