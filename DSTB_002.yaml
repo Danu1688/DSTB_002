@@ -1,9 +1,9 @@
 proxies:
-- name: Royan_LiveDO_1
+- name: RoyanSvr1_LiveDO_1
   type: trojan
-  server: circles.asia
+  server: beacon.liveon.id
   port: 443
-  password: 219562a3-125c-4d8b-844f-5ce3b3a0dc42
+  password: 704bed45-8e32-44f3-b552-f64e27ddc390
   udp: true
   sni: danu529.foryou-ssh.my.id
   skip-cert-verify: true
