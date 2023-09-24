@@ -1,4 +1,17 @@
 proxies:
+- name: RoyaNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 07f0c5a8-7a6c-4542-b998-09b6eb13ab23
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: RoyanSvr1_LiveDO_1
   type: trojan
   server: beacon.liveon.id
