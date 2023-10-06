@@ -1,4 +1,69 @@
 proxies:
+- name: RoyanNusa_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 81cf2284-f37a-4e55-bc13-af5011dee2d0
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: RoyanNusa_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 81cf2284-f37a-4e55-bc13-af5011dee2d0
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: RoyanNusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 81cf2284-f37a-4e55-bc13-af5011dee2d0
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: RoyanNusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 81cf2284-f37a-4e55-bc13-af5011dee2d0
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: RoyanNusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 81cf2284-f37a-4e55-bc13-af5011dee2d0
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
 - name: SeverDo2_Live_I1
   type: trojan
   server: 104.17.224.203
@@ -64,19 +129,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-- name: RoyaNusa_LiveNusa_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 07f0c5a8-7a6c-4542-b998-09b6eb13ab23
-  udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
 - name: RoyanSvr1_LiveDO_1
   type: trojan
   server: beacon.liveon.id
