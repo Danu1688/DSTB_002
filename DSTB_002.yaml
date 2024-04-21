@@ -830,4 +830,3 @@ proxies:
     path: /trojan
     headers:
       Host: id3.myserver-prem.xyz
-      
